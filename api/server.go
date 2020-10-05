@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
+	"github.com/DimasBayu24/go_app/api/controllers"
+	"github.com/DimasBayu24/go_app/api/seed"
 	"github.com/joho/godotenv"
-	"github.com/dimasbayu24/go_app/api/controllers"
-	"github.com/dimasbayu24/go_app/api/seed"
 )
 
 var server = controllers.Server{}
@@ -26,6 +26,6 @@ func Run() {
 
 	seed.Load(server.DB)
 
-	server.Run(":8080")
+	server.Run(":8081")
 
 }

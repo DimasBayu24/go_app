@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/dimasbayu24/go_app/api/auth"
-	"github.com/dimasbayu24/go_app/api/models"
-	"github.com/dimasbayu24/go_app/api/responses"
-	"github.com/dimasbayu24/go_app/api/utils/formaterror"
+	"github.com/DimasBayu24/go_app/api/auth"
+	"github.com/DimasBayu24/go_app/api/models"
+	"github.com/DimasBayu24/go_app/api/responses"
+	"github.com/DimasBayu24/go_app/api/utils/formaterror"
 	"golang.org/x/crypto/bcrypt"
 )
 
