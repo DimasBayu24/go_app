@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/dimasbayu24/go_app/api/models"
+	"github.com/DimasBayu24/go_app/api/models"
 	"github.com/gorilla/mux"
 	"gopkg.in/go-playground/assert.v1"
 )

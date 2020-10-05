@@ -4,7 +4,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/dimasbayu24/go_app/api/models"
+	"github.com/DimasBayu24/go_app/api/models"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"gopkg.in/go-playground/assert.v1"
 )
